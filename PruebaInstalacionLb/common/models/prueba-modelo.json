@@ -1,0 +1,24 @@
+{
+  "name": "PruebaModelo",
+  "plural": "PruebaModelo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Oscar": {
+      "type": "string"
+    },
+    "Edad": {
+      "type": "number"
+    },
+    "Apellido": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
